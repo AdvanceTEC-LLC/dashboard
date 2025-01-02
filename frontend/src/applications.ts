@@ -31,14 +31,14 @@ export const applications = [
     description: `Review procedures and record safety inspections`,
     enabled: false,
   },
-  {
+  /*{
     id: 5,
     link: `http://process-flowchart.advancetecllc.com/`,
     iconName: `account_tree`,
     title: `Process Flowchart`,
     description: `Review steps for different material types`,
     enabled: false,
-  },
+  },*/
   {
     id: 6,
     link: `http://unistrut-calculator.advancetecllc.com/`,
@@ -46,5 +46,13 @@ export const applications = [
     title: `Unistrut Calculator`,
     description: `Calculate part quantities from strut connections`,
     enabled: false,
+  },
+  {
+    id: 7,
+    link: `https://proformaprostores.com/Category`,
+    iconName: `sell`,
+    title: `Company Store`,
+    description: `Shop AdvanceTEC clothes and accessories`,
+    enabled: true,
   },
 ]
